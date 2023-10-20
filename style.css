@@ -1,0 +1,265 @@
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .sidebar {
+     width: 200px;
+     height: 100%;
+     background-color: #333;
+     color: #fff;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 1;
+ }
+
+ .sidebar a {
+     display: block;
+     padding: 12px 16px;
+     text-decoration: none;
+     color: #fff;
+     border-bottom: 0.1px solid #555;
+ }
+
+ .sidebar a:hover {
+     background-color: #555;
+ }
+
+ .content-wrapper {
+     margin-left: 200px;
+     padding: 20px;
+ }
+
+ @media screen and (max-width: 768px) {
+     .sidebar {
+         width: 100%;
+         position: static;
+     }
+
+     .sidebar ul {
+         padding: 0;
+     }
+
+     .sidebar li {
+         margin-bottom: 10px;
+     }
+
+     .content-wrapper {
+         margin-left: 0;
+     }
+
+     .box {
+         display: block;
+     }
+
+     .logoncc {
+         width: 100%;
+         height: auto;
+     }
+
+     .group {
+         width: 100%;
+     }
+
+     .overlap-group {
+         margin-left: 0;
+     }
+
+     .p {
+         text-align: left;
+     }
+ }
+
+
+ .test-content {
+     margin-left: 200px;
+     padding: 20px;
+ }
+
+ .sidebar ul {
+     padding: 20px;
+ }
+
+ .sidebar li {
+     margin-bottom: 5px;
+ }
+
+ .hearder-logo {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+     object-fit: cover;
+ }
+
+
+ .box {
+     background-color: transparent;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ .box .content-wrapper {
+     border: 0px none;
+     height: 935px;
+     position: relative;
+     text-align: center;
+     width: 1768px;
+ }
+
+
+ .box .logoncc {
+     height: 122px;
+     left: 729px;
+     object-fit: cover;
+     width: 310px;
+ }
+
+ .box .group {
+     height: 210px;
+     max-width: 1514px;
+     text-align: center;
+ }
+
+ .box .content {
+     background-color: #ffffff;
+     height: 935px;
+     max-width: 1768px;
+
+ }
+
+ .box .overlap-group {
+     align-items: center;
+     display: block;
+     background-color: #efefef;
+     min-height: 210px;
+     max-width: 1110px;
+     margin-left: 80px;
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .box .text-wrapper {
+     margin: 0;
+     margin-top: 2rem;
+     color: #000000;
+     font-family: "Roboto-Bold", Helvetica;
+     font-size: 18px;
+     font-weight: 700;
+     letter-spacing: 0;
+     line-height: normal;
+     white-space: nowrap;
+     display: inline-block
+ }
+
+ .box .p {
+     color: #000000;
+     font-family: "Roboto-Regular", Helvetica;
+     font-size: 16px;
+     font-weight: 400;
+     height: 95px;
+     letter-spacing: 0;
+     line-height: normal;
+     text-align: center;
+     max-width: 972px;
+     display: inline-block;
+     width: 90%;
+     overflow-y: auto;
+ }
+
+
+
+ .box .overlap-wrapper {
+    min-height: 252px;
+    max-width: 376px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+
+ .box .overlap {
+     background-color: #ffffff;
+     min-height: 252px;
+     position: relative;
+     /* max-width: 400px; */
+     width: 100%;
+ }
+
+ .box .text-wrapper-2 {
+     color: #000000;
+     font-family: "Roboto-Regular", Helvetica;
+     font-size: 12px;
+     font-weight: 400;
+     max-width: 310px;
+ }
+
+
+ .box .text-wrapper-3 {
+     color: #000000;
+     font-family: "Roboto-Regular", Helvetica;
+     font-size: 12px;
+     font-weight: 400;
+     left: 105px;
+     letter-spacing: 0;
+     line-height: normal;
+     max-width: 230px;
+     width: 70%;
+     float: right;
+     margin: 0;
+ }
+
+
+ .box .text-wrapper-4 {
+     color: #000000;
+     font-family: "Roboto-Bold", Helvetica;
+     font-size: 20px;
+     font-weight: 700;
+
+     letter-spacing: 0;
+     line-height: normal;
+
+
+     white-space: nowrap;
+     max-width: 470px;
+ }
+
+ .box .img {
+     height: 90px;
+     object-fit: cover;
+     /* max-width: 90px; */
+     width: 30%;
+ }
+ .footer{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+    text-align: left;
+ }
+
+
+  .box .bettwen-wrapper{
+    min-height: 252px;
+    max-width: 376px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+   
+  .box .overlap-group-wrapper {
+    min-height: 252px;
+    max-width: 376px;
+  }
+  
+  .box .div-wrapper {
+    min-height: 252px;
+    max-width: 376px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  
